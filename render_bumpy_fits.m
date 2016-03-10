@@ -18,10 +18,10 @@ for lf = 1:2
         for gloss = 2:10
             
             row_no = gloss;
-            var = correctedForNorm(row_no,:);
+            var = renderParams(row_no,:);
             
             ro_s = ['300:',num2str(var(1)),' 800:',num2str(var(1))];
-            mean_diffuse = mean(correctedForNorm(:,2));
+            mean_diffuse = mean(renderParams(:,2));
             ro_d = ['300:',num2str(mean_diffuse),' 800:',num2str(mean_diffuse)];
             alphau = var(3);
             

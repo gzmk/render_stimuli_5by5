@@ -1,1 +1,1 @@
-render_bumpy_fits('correctedFormNorm_feb7_spheron.mat')
+render_bumpy_fits('renderParams.mat')
