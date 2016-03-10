@@ -25,7 +25,7 @@ Mitsuba {
     % use the path integrator with lots of samples
     integrator:integrator:path
     %integrator:hideEmitters.boolean = true
-    Camera-camera_sampler:sampleCount.integer = 320
+    Camera-camera_sampler:sampleCount.integer = 640
     %Camera-camera_film:pixelFormat.string = spectrumAlpha
 
 }
