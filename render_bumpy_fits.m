@@ -31,7 +31,7 @@ for lf = 1:2
             writetable(T,'/scratch/gk925/render_stimuli_5by5/bumpy_fitrender_Conditions.txt','Delimiter','\t')
             
             % Set preferences
-            setpref('RenderToolbox3', 'workingFolder', '/scratch/gk925/render_stimuli_5by');
+            setpref('RenderToolbox3', 'workingFolder', '/scratch/gk925/render_stimuli_5by5');
             
             % use this scene and condition file.
             parentSceneFile = ['GBMeshD',num2str(bump),'G',num2str(gloss),'L',num2str(lf),'.dae']
